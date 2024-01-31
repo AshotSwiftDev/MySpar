@@ -31,8 +31,7 @@ struct ProductDetailView: View {
                 }
             }.padding(.bottom, 8)
             .navigationBarBackButtonHidden(true)
-            .navigationBarItems(leading: Image(systemName: "arrow.left").foregroundColor(.green)
-                .bold())
+            .navigationBarItems(leading: Image(systemName: "arrow.left").foregroundColor(.green))
             .toolbar{
                 ToolBarView()
             }
@@ -316,8 +315,7 @@ struct ProductDetailView: View {
                     Button(action: {
                         
                     }, label: {
-                        Image(systemName: "plus")
-                            .bold()
+                        Image(systemName: "plus") 
                             .foregroundColor(.white)
                     })
                     .padding(.leading, 8)
@@ -335,7 +333,6 @@ struct ProductDetailView: View {
                         
                     }, label: {
                         Image(systemName: "minus")
-                            .bold()
                             .foregroundColor(.white)
                     }).padding(.trailing, 8)
                 }.frame(width: 160, height: 48)

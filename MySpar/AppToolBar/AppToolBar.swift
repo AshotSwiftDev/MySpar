@@ -18,7 +18,7 @@ struct ToolBarView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 20, height: 20)
                     .foregroundColor(.green)
-                    .bold()
+                    
             })
             
             Button(action: {
@@ -29,7 +29,7 @@ struct ToolBarView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 20, height: 20)
                     .foregroundColor(.green)
-                    .bold()
+                    
             })
             
             Button(action: {
@@ -40,7 +40,7 @@ struct ToolBarView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 20, height: 20)
                     .foregroundColor(.green)
-                    .bold()
+                   
             })
         }
     }
